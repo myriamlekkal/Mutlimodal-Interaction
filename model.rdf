@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1355992893994 "http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Ontology1355992893994="http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#hasAuditoryModality -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1355992893994;hasAuditoryModality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#hasMaximumTemperature -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1355992893994;hasMaximumTemperature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Cafeteria -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Cafeteria">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Class_Room -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Class_Room">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Computer_Lab -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Computer_Lab">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Constraints -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Constraints"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Corridor -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Corridor">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Human -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Main_Hall -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Main_Hall">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Modality -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Modality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Office -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Office">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1355992893994;hasAuditoryModality"/>
+                <owl:allValuesFrom rdf:resource="&Ontology1355992893994;Silence"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Printing_Room -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Printing_Room">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Room -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Room"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Server_Room -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Server_Room">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Silence -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Silence">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Constraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Sound -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Sound">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Modality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Temperature -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Temperature">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Constraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#Toilet -->
+
+    <owl:Class rdf:about="&Ontology1355992893994;Toilet">
+        <rdfs:subClassOf rdf:resource="&Ontology1355992893994;Room"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#15 -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;15">
+        <rdf:type rdf:resource="&Ontology1355992893994;Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#cafeteria -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;cafeteria">
+        <rdf:type rdf:resource="&Ontology1355992893994;Cafeteria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#classRoom -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;classRoom">
+        <rdf:type rdf:resource="&Ontology1355992893994;Class_Room"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#computerLab -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;computerLab">
+        <rdf:type rdf:resource="&Ontology1355992893994;Computer_Lab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#corridor -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;corridor">
+        <rdf:type rdf:resource="&Ontology1355992893994;Corridor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#lockDoor -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;lockDoor">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#lowerTemperature -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;lowerTemperature">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#mainHall -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;mainHall">
+        <rdf:type rdf:resource="&Ontology1355992893994;Main_Hall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#office -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;office">
+        <rdf:type rdf:resource="&Ontology1355992893994;Office"/>
+        <hasAuditoryModality rdf:resource="&Ontology1355992893994;silence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#printingRoom -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;printingRoom">
+        <rdf:type rdf:resource="&Ontology1355992893994;Printing_Room"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#raiseTemperature -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;raiseTemperature">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#serverRoom -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;serverRoom">
+        <rdf:type rdf:resource="&Ontology1355992893994;Server_Room"/>
+        <hasMaximumTemperature rdf:resource="&Ontology1355992893994;15"/>
+        <hasAuditoryModality rdf:resource="&Ontology1355992893994;lockDoor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#silence -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;silence">
+        <rdf:type rdf:resource="&Ontology1355992893994;Silence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#switchComputerOff -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;switchComputerOff">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#switchComputerOn -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;switchComputerOn">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#toilet -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;toilet">
+        <rdf:type rdf:resource="&Ontology1355992893994;Toilet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#turnOffProjector -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;turnOffProjector">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#turnOnProjector -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;turnOnProjector">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/11/Ontology1355992893994.owl#unlockDoor -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1355992893994;unlockDoor">
+        <rdf:type rdf:resource="&Ontology1355992893994;Sound"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
