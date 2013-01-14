@@ -1,9 +1,12 @@
 Mutlimodal-Interaction
 ======================
 
-### Test
+### Interesting link
+The following tutorial is interesting for our project, as it explains what are the different things you can do with Protege.
 
-### TODO : Multimodal Interactions ###
+[ProtegeOWLTutorialP4_v1_3.pdf](http://owl.cs.manchester.ac.uk/tutorials/protegeowltutorial/resources/ProtegeOWLTutorialP4_v1_3.pdf)
+
+### TODO
 
 * 24/01/13: project
 	* Have a complete RDF file, decide
